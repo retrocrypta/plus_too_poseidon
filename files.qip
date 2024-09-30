@@ -1,0 +1,50 @@
+set_global_assignment -name VERILOG_FILE ../build_id.v
+set_global_assignment -name SDC_FILE ../plusToo_top.sdc
+set_global_assignment -library mist -name VHDL_FILE    ../mist.vhd
+set_global_assignment -library mist -name VERILOG_FILE ../user_io.v
+set_global_assignment -library mist -name VERILOG_FILE ../data_io.v
+set_global_assignment -library mist -name VERILOG_FILE ../mist_video.v
+set_global_assignment -library mist -name VERILOG_FILE ../scandoubler.v
+set_global_assignment -library mist -name VERILOG_FILE ../osd.v
+set_global_assignment -library mist -name VERILOG_FILE ../arcade_inputs.v
+set_global_assignment -library mist -name VERILOG_FILE ../video_cleaner.v
+set_global_assignment -library mist -name VERILOG_FILE ../rgb2ypbpr.v
+set_global_assignment -library mist -name SYSTEMVERILOG_FILE ../cofi.sv
+set_global_assignment -library mist -name VERILOG_FILE ../sd_card.v
+set_global_assignment -library mist -name VERILOG_FILE ../ide.v
+set_global_assignment -library mist -name VERILOG_FILE ../ide_fifo.v
+set_global_assignment -library mist -name VERILOG_FILE ../cdda_fifo.v
+set_global_assignment -library mist -name VERILOG_FILE ../i2c_master.v
+set_global_assignment -library mist -name VERILOG_FILE ../i2s.v
+set_global_assignment -library mist -name VERILOG_FILE ../spdif.v
+set_global_assignment -library mist -name VHDL_FILE    ../dac.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE ../plusToo_top.sv
+set_global_assignment -name VERILOG_FILE ../cpu_module.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../fx68k/uaddrPla.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../fx68k/fx68kAlu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../fx68k/fx68k.sv
+set_global_assignment -name VERILOG_FILE ../fx68k/altera_regs.v
+set_global_assignment -name VHDL_FILE ../TG68K.C/TG68KdotC_Kernel.vhd
+set_global_assignment -name VHDL_FILE ../TG68K.C/TG68K_Pack.vhd
+set_global_assignment -name VHDL_FILE ../TG68K.C/TG68K_ALU.vhd
+set_global_assignment -name VERILOG_FILE ../tg68k.v
+set_global_assignment -name VHDL_FILE ../via6522.vhd
+set_global_assignment -name VERILOG_FILE ../ncr5380.v
+set_global_assignment -name VERILOG_FILE ../scsi.v
+set_global_assignment -name VERILOG_FILE ../sigma_delta_dac.v
+set_global_assignment -name VERILOG_FILE ../floppy_track_encoder.v
+set_global_assignment -name VERILOG_FILE ../ps2_kbd.v
+set_global_assignment -name VERILOG_FILE ../sdram.v
+set_global_assignment -name VERILOG_FILE ../scc.v
+set_global_assignment -name VERILOG_FILE ../ps2_mouse.v
+set_global_assignment -name VERILOG_FILE ../ps2.v
+set_global_assignment -name VERILOG_FILE ../iwm.v
+set_global_assignment -name VERILOG_FILE ../addrDecoder.v
+set_global_assignment -name VERILOG_FILE ../addrController_top.v
+set_global_assignment -name VERILOG_FILE ../dataController_top.v
+set_global_assignment -name VERILOG_FILE ../videoTimer.v
+set_global_assignment -name VERILOG_FILE ../videoShifter.v
+set_global_assignment -name VERILOG_FILE ../floppy.v
+set_global_assignment -name VERILOG_FILE ../adb.v
+set_global_assignment -name VERILOG_FILE ../rtc.v
+set_global_assignment -name QIP_FILE ../pll.qip
